@@ -1,0 +1,37 @@
+/* Small screens and laptops */
+@media screen and (max-width: 1024px) {
+    .main{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .pr1{
+        font-size: 22px;
+    }
+    .pr2{
+        font-size: 22px;
+    }
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 768px) {
+    .main{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .prp{
+        padding-top: 0.5px;
+        font-size: 22px;
+        /* width: 350px; */
+        height: 270px;
+    }
+    .menu1{
+        padding-left: 60px;
+        margin-left: 10px;
+    }
+    .menu2{
+        padding-right: 60px;
+    }
+}
+/* Mobile devices */
+@media screen and (max-width: 320px) {
+}
